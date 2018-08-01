@@ -2,8 +2,8 @@ package com.oca.chapterthree;
 
 
 /* When do stuff is reached, how many objects are eligible for garbage collection
- *  I expected 1 to be eligible for garbage collection because c1 = null, becuase it does not 
- *  contain a reference to it and its in unreachable
+ *  I expected 1 object  to be eligible for garbage collection because c1 = null, it does not 
+ *  contain a reference to it instead 2 objects are eligible fir GC.
  */
 
  
